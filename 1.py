@@ -15,6 +15,6 @@ class IceCreamStand(restaurant):
         for flavor in self.flavors:
             print(flavor)
 
-stand = IceCreamStand("Мороженое", "Кафе")
+stand = IceCreamStand("Мороженое", "Кафе-мороженное")
 stand.describe_restaurant()
 stand.print_flavors()
